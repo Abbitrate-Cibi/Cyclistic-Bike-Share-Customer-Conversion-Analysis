@@ -21,5 +21,6 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 - **Data Cleaning Steps:**
   
     - Dropped `tripduration` column due to unclear time units , it is replaced by a new `ride_length_in_minutes` column which is calculated using        the difference between the `start_time` and `end_time` columns.
+    - Standardized station column names by renaming `from_station_id`, `to_station_id`, `from_station_name`, and `to_station_name` to                    `start_station_id`, `end_station_id`, `start_station_name`, and `end_station_name` respectively.
 
 

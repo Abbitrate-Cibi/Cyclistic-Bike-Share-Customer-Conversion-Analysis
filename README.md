@@ -15,7 +15,7 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 
 ## Data Cleaning and Preparation
 - A preview of the cleaned data set
-- 
+
 ![Cleaned Bike Trips Data Preview](./images/cleaned_bike_trips_data_preview.png)
 
 

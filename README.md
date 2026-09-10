@@ -24,5 +24,6 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
     - Standardized station column names by renaming `from_station_id`, `to_station_id`, `from_station_name`, and `to_station_name` to                    `start_station_id`, `end_station_id`, `start_station_name`, and `end_station_name` respectively.
     - **Handled Missing Values:** Retained rows with missing `gender` and `birthyear` entries, this is because demographic analysis is outside the       primary project scope, and  dropping these rows would unnecessarily reduce sample size and compromise overall data integrity.
     - Removed the special trailing characters (*) that appear at the end of the `start_station_name` and `end_station_name` column entries , this        will make the searching of station names accurate.
+    - **Excluded Outliers:** Filtered out 192 trips exceeding the 24-hour maximum usage policy (1,440 minutes), this is because Cyclistic requires       bikes to be returned within 24 hours, these extreme outliers represent stolen or unreturned bikes and fall outside standard trip patterns.
 
 

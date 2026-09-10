@@ -19,6 +19,7 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 ![Cleaned Bike Trips Data Preview](./images/cleaned_bike_trips_data_preview.png)
 
 - **Data Cleaning Steps:**
-  - Dropped `tripduration` column due to unclear time units , it is replaced by a new `ride_length_in_minutes` column which is calculated using        the difference between the `start_time` and `end_time` columns.
+  
+- Dropped `tripduration` column due to unclear time units , it is replaced by a new `ride_length_in_minutes` column which is calculated using        the difference between the `start_time` and `end_time` columns.
 
 

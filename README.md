@@ -28,10 +28,53 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
     - Removed the special trailing characters (*) that appear at the end of the `start_station_name` and `end_station_name` column entries , this        will make the searching of station names accurate.
     - **Excluded Outliers:** Filtered out 192 trips exceeding the 24-hour maximum usage policy (1,440 minutes), this is because Cyclistic requires       bikes to be returned within 24 hours, these extreme outliers represent stolen or unreturned bikes and fall outside standard bike trip  patterns.
 
-## Data Analysis & Methodology
+## Data Analysis, Visualizations & Insights
 
-The exploratory data analysis was conducted using **Google BigQuery** to uncover key behavioral differences between Subscribers and Customers. 
+The exploratory data analysis was conducted using **SQL** in **Google BigQuery** to uncover key behavioral differences between Subscribers and Customers. All data visualizations were built using **Tableau**. 
 
 - You can view the full BigQuery SQL script with comments and insights here: [SQL BigQuery Script](./analysis.sql)
+---
+
+### 1. Trip Duration & Ride Characteristics
+
+**Data Visual:** Bar chart comparing average ride duration (`average_ride_length`) against total user volume (`Number_of_users`) across user types.
+
+* **Key Takeaways:** 
+  * Subscribers account for the majority of overall trips (341,782 trips), but have a shorter average trip duration of **11.31 minutes**.
+  * Customers represent a lower volume (23,095 trips), but spend significantly longer on each ride, averaging **35.29 minutes**.
+* **Marketing Recommendation:** Create a targeted campaign highlighting the cost savings of an annual membership for long-duration rides. Emphasize that switching from pay-per-use passes to annual memberships eliminates extra per-minute charges incurred during extended trips.
+
+---
+
+### 2. Weekly Riding Patterns & Peak Usage Days
+
+**Data Visual:** Grouped bar chart showing total trip volume and average duration across all days of the week (`start_ride_day_of_week`), segmented by user type.
+
+* **Key Takeaways:**
+  * Subscriber trip volume peaks on weekdays, reaching its maximum on Thursdays (**63,962 trips**).
+  * Customer activity shifts heavily toward weekends, peaking on Saturdays (**5,971 trips**) with their longest average ride lengths (**37.57 minutes**).
+* **Marketing Recommendation:** Launch weekend-focused digital promotions and targeted pop-up events near popular stations on Friday afternoons and Saturdays when casual customer traffic is highest.
+
+---
+
+### 3. Commute Hours vs. Recreational Usage
+
+**Data Visual:** Clustered column chart comparing total trips during morning commute hours (07:00–09:00 AM) versus evening commute hours (16:00–18:00 PM) for both user groups.
+
+* **Key Takeaways:**
+  * Subscribers heavily utilize bikes during standard commuting windows (**64,191 morning trips** and **84,320 evening trips**), confirming their primary use case is daily transit.
+  * Customers rarely ride during the morning commute (**951 trips**), but their usage increases fivefold during the evening commute window (**4,883 trips**).
+* **Marketing Recommendation:** Frame the annual membership around daily commuting convenience, reliability, and cost efficiency compared to public transit or ride-shares. Target evening casual riders with messaging focused on using Cyclistic for after-work transit and leisure.
+
+---
+
+### 4. Station Routes & Geographical Usage
+
+**Data Visual:** Horizontal bar chart displaying top 5 start-to-end station routes for Subscribers vs. Customers.
+
+* **Key Takeaways:**
+  * Top route volumes for both groups range from **130 to 511 trips**, demonstrating that rides are widely distributed across the network rather than concentrated on a few corridor lines.
+  * Customers utilize completely distinct routes compared to Subscribers, leaning heavily toward recreational areas, waterfronts, and parks.
+* **Marketing Recommendation:** Place physical marketing signage, QR codes for instant membership sign-ups, or promotional events directly at top Customer origin and destination stations near key recreational hotspots.
 
 

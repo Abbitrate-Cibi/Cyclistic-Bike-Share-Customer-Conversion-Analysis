@@ -18,7 +18,7 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 - A preview of the data set cleaned using **Google Sheets:**
 
 ![Cleaned Bike Trips Data Preview](./images/cleaned_bike_trips_data_preview.png)
-- The complete cleaned data set cab be accessed here : [Cleaned Bike Trips Data 2019 Q1 ](https://docs.google.com/spreadsheets/d/13G0EC9-HtpbO_EKQvlPp_RQwc49_ECCZRK2AnAakFDU/edit?usp=sharing)
+- The complete cleaned data set can be accessed here : [Cleaned Bike Trips Data 2019 Q1 ](https://docs.google.com/spreadsheets/d/13G0EC9-HtpbO_EKQvlPp_RQwc49_ECCZRK2AnAakFDU/edit?usp=sharing)
 
 - **Data Cleaning Steps:**
   

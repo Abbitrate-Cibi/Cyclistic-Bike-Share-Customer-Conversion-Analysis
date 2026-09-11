@@ -32,6 +32,6 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 
 The exploratory data analysis was conducted using **Google BigQuery** to uncover key behavioral differences between Subscribers and Customers. 
 
-- You can view the full BigQuery SQL script with comments and insights here: [SQL BigQuery SQL Script](./analysis.sql)
+- You can view the full BigQuery SQL script with comments and insights here: [SQL BigQuery Script](./analysis.sql)
 
 

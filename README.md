@@ -14,7 +14,7 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
 - For additional information about the business scenario read [Cyclistic Case Study ](./documents/Case_Study.pdf)
 
 ## Data Cleaning and Preparation
-- A preview of the cleaned data set
+- A preview of the data set cleaned using **Google Sheets:**
 
 ![Cleaned Bike Trips Data Preview](./images/cleaned_bike_trips_data_preview.png)
 

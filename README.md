@@ -28,4 +28,10 @@ This table shows a sample of the raw Chicago Bike Trips data in the first quarte
     - Removed the special trailing characters (*) that appear at the end of the `start_station_name` and `end_station_name` column entries , this        will make the searching of station names accurate.
     - **Excluded Outliers:** Filtered out 192 trips exceeding the 24-hour maximum usage policy (1,440 minutes), this is because Cyclistic requires       bikes to be returned within 24 hours, these extreme outliers represent stolen or unreturned bikes and fall outside standard bike trip  patterns.
 
+## Data Analysis & Methodology
+
+The exploratory data analysis was conducted using **Google BigQuery** to uncover key behavioral differences between Subscribers and Customers. 
+
+- You can view the full BigQuery SQL script with comments and insights here: [SQL BigQuery SQL Script](./analysis.sql)
+
 

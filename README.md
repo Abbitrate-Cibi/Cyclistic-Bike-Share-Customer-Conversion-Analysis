@@ -35,7 +35,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 - You can view the full BigQuery SQL script with comments and insights here: [SQL BigQuery Script](./analysis.sql)
 ---
 
-### 1. Trip Duration & Ride Characteristics
+### 1. Bike Trip Duration & Ride Characteristics
 
 **Data Visual:** Bar chart comparing average ride duration (`average_ride_length`) against total user volume (`Number_of_users`) across user types.
 

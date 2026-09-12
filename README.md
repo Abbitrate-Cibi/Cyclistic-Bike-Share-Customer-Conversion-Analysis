@@ -51,9 +51,9 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 ![Second_viz](./images/Second_viz.png)
 
 * **Key Takeaways:**
-  * Subscriber trip volume peaks on weekdays, reaching its maximum on Thursdays (**63,962 trips**).
-  * Customer activity shifts heavily toward weekends, peaking on Saturdays (**5,971 trips**) with their longest average ride lengths (**37.57 minutes**).
-* **Marketing Recommendation:** Launch weekend-focused digital promotions and targeted pop-up events near popular stations on Friday afternoons and Saturdays when casual customer traffic is highest.
+  * **Subscriber Activity:** Subscriber bike trips increase sharply from Sunday starting at **24 219 trips** and reaches its maximum on Thursdays (**63 962 trips**).
+  * **Customer activity:** Customer bike trips stay relatively low throughout all week days (hovering around 3000 bike trips/day) and shifts upward toward the weekend, peaking on Sunday at **5 971 trips**.
+* **Marketing Recommendation:** Launch weekend-focused digital promotions mainly targeted at Customers since Saturday and Sunday are the two days with the highest number of bike trips for them, maintaining high subscriber engagement should not be ignored but for now we only focus on having more annual members. 
 
 ---
 

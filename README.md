@@ -37,7 +37,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 1. Bike Trip Duration & Ride Characteristics
 
-![Data Viz](./images/first_viz.png)
+![Data Viz](./images/first_viz_png)
 
 * **Key Takeaways:** 
   * Subscribers account for the majority of total bike trips (341 782 trips) in the overall data set, but have a shorter average trip duration of **11.31 minutes**.
@@ -59,7 +59,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 3. Commute Hours vs. Recreational Usage
 
-**Data Visual:** Clustered column chart comparing total trips during morning commute hours (07:00–09:00 AM) versus evening commute hours (16:00–18:00 PM) for both user groups.
+![Third Viz](./images/third_viz.png)
 
 * **Key Takeaways:**
   * Subscribers heavily utilize bikes during standard commuting windows (**64,191 morning trips** and **84,320 evening trips**), confirming their primary use case is daily transit.

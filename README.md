@@ -48,8 +48,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 2. Weekly Riding Patterns & Peak Usage Days
 
-![Second_viz](./images/Second_viz)
-**Data Visual:** Grouped bar chart showing total trip volume and average duration across all days of the week (`start_ride_day_of_week`), segmented by user type.
+![Second_viz](./images/Second_viz.png)
 
 * **Key Takeaways:**
   * Subscriber trip volume peaks on weekdays, reaching its maximum on Thursdays (**63,962 trips**).

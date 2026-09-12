@@ -75,6 +75,6 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 * **Key Takeaways:**
   * Top route volumes for both groups range from **130 to 511 trips**, demonstrating that rides are widely distributed across the network rather than concentrated on a few corridor lines.
   * Customers utilize completely distinct routes compared to Subscribers, leaning heavily toward recreational areas, waterfronts, and parks.
-* **Marketing Recommendation:** Place physical marketing signage, QR codes for instant membership sign-ups, or promotional events directly at top Customer origin and destination stations near key recreational hotspots.
+* **Marketing Recommendation:** Place physical marketing signage, QR codes for instant membership sign-ups, or promotional events directly at top Customer origin and destination stations near key recreational hotspots
 
 

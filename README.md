@@ -40,8 +40,8 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 ![Data Viz](./images/first_viz.png)
 
 * **Key Takeaways:** 
-  * Subscribers account for the majority of overall trips (341,782 trips), but have a shorter average trip duration of **11.31 minutes**.
-  * Customers represent a lower volume (23,095 trips), but spend significantly longer on each ride, averaging **35.29 minutes**.
+  * Subscribers account for the majority of total bike trips (341,782 trips) in the overall data set, but have a shorter average trip duration of **11.31 minutes**.
+  * Customers represent a lower total number of trips(23,095 trips) in overall data set , but spend significantly longer on each ride, averaging **35.29 minutes**.
 * **Marketing Recommendation:** Create a targeted campaign highlighting the cost savings of an annual membership for long-duration rides. Emphasize that switching from pay-per-use passes to annual memberships eliminates extra per-minute charges incurred during extended trips.
 
 ---

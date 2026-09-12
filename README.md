@@ -37,7 +37,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 1. Bike Trip Duration & Ride Characteristics
 
-**Data Visual:** Bar chart comparing average ride duration (`average_ride_length`) against total user volume (`Number_of_users`) across user types.
+![Data Viz](./images/first_viz.png)
 
 * **Key Takeaways:** 
   * Subscribers account for the majority of overall trips (341,782 trips), but have a shorter average trip duration of **11.31 minutes**.

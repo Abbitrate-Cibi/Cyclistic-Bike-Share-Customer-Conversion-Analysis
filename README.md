@@ -10,7 +10,7 @@
 
 This table shows a sample of the raw Chicago Bike Trips data in the first quarter(January, February and March) of 2019. Data Source : The raw data is from Motivate International Inc.
 
-![Uncleaned Bike Trips Data Preview](./images/raw_bike_trips_data_preview.png)
+![Uncleaned Bike Trips Data Preview](./images/bike_trips_preview.png)
 - For additional information about the business scenario read [Cyclistic Case Study ](./documents/Case_Study.pdf)
 - The complete raw data set can be accessed here : [Raw Bike trips Data 2019 Q1 ](https://docs.google.com/spreadsheets/d/1AYa1EMxdi2xoXapZ2dC8yKQ2-lzfg43HKzLI5_iwypE/edit?usp=sharing)
 

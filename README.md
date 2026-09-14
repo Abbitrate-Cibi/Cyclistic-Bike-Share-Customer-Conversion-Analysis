@@ -75,8 +75,8 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 
 * **Key Takeaways:**
-  * Top route volumes for both groups range from **130 to 511 trips**, demonstrating that rides are widely distributed across the network rather than concentrated on a few corridor lines.
-  * Customers utilize completely distinct routes compared to Subscribers, leaning heavily toward recreational areas, waterfronts, and parks.
-* **Marketing Recommendation:** Place physical marketing signage, QR codes for instant membership sign-ups, or promotional events directly at top Customer origin and destination stations near key recreational hotspots.
+  * Even the most popular routes only have between **130 to 511 bike trips**, demonstrating that people use bikes across the city rather than sticking to just a few main station routes.
+  * Customers utilize completely different routes compared to Subscribers, leaning heavily toward recreational areas, waterfronts, and parks.
+* **Marketing Recommendation:** Place physical posters, QR codes for instant membership sign-ups, or promotional events directly at the top stations near parks and waterfronts where customers usually start and end their trips.
 
 

@@ -187,5 +187,29 @@ WHERE ride_length_in_minutes < 1440
 GROUP BY month_number,usertype,start_ride_day_of_week
 ORDER BY month_number,usertype,start_ride_day_of_week;                  
 
+/* Top 5 Most used routes per usertype */
+
+(SELECT 
+       usertype,
+      CONCAT(start_station_name,  "To"  , end_station_name) AS route_name,
+      COUNT(*) AS number_of_bike_trips
+FROM `cyclistic-project-507412.cyclistic_info.bike_trips`
+WHERE ride_length_in_minutes < 1440 AND usertype='Customer'
+GROUP BY usertype,route_name
+ORDER BY number_of_bike_trips DESC
+LIMIT 5)
+
+UNION ALL
+
+ (SELECT 
+      usertype,
+      CONCAT(start_station_name,  "To"  , end_station_name) AS route_name,
+      COUNT(*) AS number_of_bike_trips
+FROM `cyclistic-project-507412.cyclistic_info.bike_trips`
+WHERE ride_length_in_minutes < 1440 AND usertype='Subscriber'
+GROUP BY usertype,route_name
+ORDER BY number_of_bike_trips DESC
+LIMIT 5);
+
 
 

@@ -70,7 +70,9 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 4. Station Routes & Geographical Usage
 
-**Data Visual:** Horizontal bar chart displaying top 5 start-to-end station routes for Subscribers vs. Customers.
+               **Top 5 Most Used Station Routes Per Usertype**
+  ![Fourth Viz](./images/fourth_viz.png)
+
 
 * **Key Takeaways:**
   * Top route volumes for both groups range from **130 to 511 trips**, demonstrating that rides are widely distributed across the network rather than concentrated on a few corridor lines.

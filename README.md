@@ -70,7 +70,7 @@ The exploratory data analysis was conducted using **SQL** in **Google BigQuery**
 
 ### 4. Station Routes & Geographical Usage
 
-               **Top 5 Most Used Station Routes Per Usertype**
+ ### Top 5 Most Used Station Routes Per Usertype
   ![Fourth Viz](./images/fourth_viz.png)
 
 
